@@ -6,7 +6,7 @@ namespace Using_NUnit
     public class Calculate_Test
     {
         [Test]
-        public void Somar_2_valor()
+        public void Somar_2_valores()
         {
             var calc = new Calculate();
 
