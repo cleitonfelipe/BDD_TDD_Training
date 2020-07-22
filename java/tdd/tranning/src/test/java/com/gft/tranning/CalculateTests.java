@@ -9,11 +9,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 class CalculateTests {
     @Test
     void Somar_2_valores(){
+        //Arrage
         Calculate calc = new Calculate();
-
+        
+        //Act
         int result = calc.Somar(1, 1);
-
-        assertEquals(2, result);
+        
+        //Assert
+        assertEquals(3, result);
     }
     
 }

@@ -6,5 +6,10 @@ namespace Using_NUnit
         {
             return a + b;
         }
+
+        public int Multiplicar(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
