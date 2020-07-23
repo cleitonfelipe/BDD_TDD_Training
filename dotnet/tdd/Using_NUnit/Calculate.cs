@@ -11,5 +11,15 @@ namespace Using_NUnit
         {
             return a * b;
         }
+
+        public int Dividir(int a, int b)
+        {
+            var resultado = 0;
+            if(a != 0) 
+            {
+                resultado = a / b;
+            }
+            return resultado;
+        }
     }
 }

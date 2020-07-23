@@ -27,5 +27,15 @@ namespace Using_NUnit
 
             Assert.AreEqual(50, result);
         }
+
+        [Test]
+        public void Dividir_Valores()
+        {
+            var calc = new Calculate();
+
+            var result = calc.Dividir(4,2);
+
+            Assert.AreEqual(2, result);
+        }
     }
 }
