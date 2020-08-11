@@ -1,0 +1,20 @@
+I = 1
+II = 2
+III = 3
+V = 5
+X = 10
+
+
+Feature
+Rule (as of Gherkin 6)
+Example (or Scenario)
+Given, When, Then, And, But for steps (or *)
+Background
+Scenario Outline (or Scenario Template)
+Examples
+There are a few secondary keywords as well:
+
+""" (Doc Strings)
+| (Data Tables)
+@ (Tags)
+# (Comments)
